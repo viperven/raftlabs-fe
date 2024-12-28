@@ -1,0 +1,24 @@
+-------------------Register User:-----------------
+
+mutation {
+  register(name: "John Doe", email: "john@example.com", password: "password123") {
+    id
+    name
+    email
+  }
+}
+
+-------------------Login User:-----------------
+
+mutation {
+  login(email: "john@example.com", password: "password123")
+}
+
+-------------------Fetch Users:-----------------
+query {
+  getUsers {
+    id
+    name
+    email
+  }
+}

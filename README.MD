@@ -11,3 +11,6 @@ npm install
 
 Run the Application:
 npm start
+
+to start redis
+redis-server
